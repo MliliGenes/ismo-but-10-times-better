@@ -364,7 +364,7 @@ a:nth-child(6) .card {
   flex: 1;
   align-self: stretch;
   object-fit: cover;
-  background-size: 200%;
+  background-size: 100%;
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-image: url(https://ismo.ma/images/ismo.jpg);
@@ -692,10 +692,11 @@ footer div ul li a {
   #about .about-content .presentation {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 800px;
   }
   #about .about-content .presentation .content {
     border-radius: 1em;
+    flex: 0.5;
   }
   #about .about-content .presentation .content p {
     font-size: 1.1em;
@@ -711,6 +712,7 @@ footer div ul li a {
     flex: 1;
     background-color: red;
     background-image: url(https://ismo.ma/images/ismo.jpg);
+    background-size: 150%;
     border-radius: 1em;
   }
   .carousel {
