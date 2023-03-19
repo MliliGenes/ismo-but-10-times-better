@@ -744,7 +744,7 @@ footer div ul li a {
     font-size: 2em;
   }
   .curve2 {
-    width: 100%;
+    top: 0px;
   }
   .curve3 {
     bottom: -10px;
