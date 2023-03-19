@@ -367,6 +367,7 @@ a:nth-child(6) .card {
   background-size: 200%;
   background-position: 50% 0%;
   background-repeat: no-repeat;
+  background-image: url(https://ismo.ma/images/ismo.jpg);
   border-radius: 0 0.5em 0.5em 0;
 }
 #emploi {
