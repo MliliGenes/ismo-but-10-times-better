@@ -693,12 +693,11 @@ footer div ul li a {
   #about .about-content .presentation {
     display: flex;
     flex-direction: column;
-    min-height: 800px;
+    min-height: 700px;
   }
   #about .about-content .presentation .content {
     border-radius: 1em;
-    flex: 0.5;
-    height: 300px;
+    max-height: 400px;
   }
   #about .about-content .presentation .content p {
     font-size: 1.1em;
@@ -711,7 +710,6 @@ footer div ul li a {
   }
 
   #about .about-content .presentation .img {
-    flex: 1;
     background-image: url(https://ismo.ma/images/ismo.jpg);
     background-size: 150%;
     border-radius: 1em;
