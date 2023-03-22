@@ -599,7 +599,8 @@ footer {
   display: flex;
   align-items: start;
   justify-content: center;
-  gap: 2em;
+  gap: 4em;
+  padding-bottom: 4em;
 }
 footer a img {
   padding: 2em 0;
